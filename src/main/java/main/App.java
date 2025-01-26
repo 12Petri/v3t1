@@ -26,17 +26,17 @@ public class App {
                                 
         switch (i) {
             case 1:
-                System.out.print("Anna uusi PIN-koodi: ");
+                System.out.println("Anna uusi PIN-koodi: ");
                 String newPin = sc.nextLine();
                 newSafe.setPin(newPin);
                 break;
             case 2:
-                System.out.print("Anna kansioon lisättävä tieto: ");
+                System.out.println("Anna kansioon lisättävä tieto: ");
                 String data = sc.nextLine();
                 newSafe.addData(data);
                 break;
             case 3:
-                System.out.print("Anna PIN-koodi: ");
+                System.out.println("Anna PIN-koodi: ");
                 String pin = sc.nextLine();
                 ArrayList<String> datalList = newSafe.listData(pin);
                 if (datalList != null) {
