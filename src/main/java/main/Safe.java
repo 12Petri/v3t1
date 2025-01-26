@@ -11,7 +11,7 @@ public class Safe {
         this.safeFolder = new ArrayList<>();
     }
 
-    public void changePin(String newPin) {
+    public void setPin(String newPin) {
         this.pinCode = newPin;
     }
 

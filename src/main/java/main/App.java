@@ -28,7 +28,7 @@ public class App {
             case 1:
                 System.out.print("Anna uusi PIN-koodi: ");
                 String newPin = sc.nextLine();
-                newSafe.changePin(newPin);
+                newSafe.setPin(newPin);
                 break;
             case 2:
                 System.out.print("Anna kansioon lisättävä tieto: ");
