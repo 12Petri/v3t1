@@ -1,3 +1,5 @@
+//Perusrakenne on pitkälti sama kuin edellisen viikon tehtävässä
+
 package main;
 
 import java.util.ArrayList;
